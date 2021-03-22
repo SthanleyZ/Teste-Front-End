@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+html{
+    height: 100%;
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.shop img{
+    cursor: pointer;
+}
+
+.search img{
+    cursor: pointer;
+}
