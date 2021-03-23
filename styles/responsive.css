@@ -52,13 +52,6 @@
         align-items: baseline;
     }
     
-    .logoDot{
-        height: 9px;
-        width: 9px;
-        background-color: #BFBFBF;
-        border-radius: 50px;
-    }
-    
     .search{
         position:relative; 
         width: 90%;
