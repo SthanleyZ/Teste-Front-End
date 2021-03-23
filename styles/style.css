@@ -18,3 +18,111 @@ body{
 .search img{
     cursor: pointer;
 }
+
+.vitrine{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textVitrine{
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.textVitrine h1{
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.lineVitrine{
+    height: 1px;
+    width: 65px;
+    background-color: #C0C0C0;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.productsCenter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.card{
+    margin-top: 16px;
+    transition: all 0.4s;
+    height: 360px;
+}
+
+.card:hover{
+    background-color: #E6E8EA;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: #444;
+    border-color: #444;
+}
+
+.btn-primary:hover{
+    background-color: #000;
+    border-color: #000;
+}
+
+.card:hover .comprar{
+    display: block;
+    transition: all 0.4s;
+}
+
+.comprar{
+    display: none;
+    transition: all 0.4s;
+}
+
+.price{
+    margin: 0;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subPrice{
+    font-size: 15px;
+    color: #7A7A7A;
+}
+
+.color{
+    width:70px;
+    height:70px;
+    position: absolute;
+    right: 0;
+}
+.color > div{
+    border-left: 70px solid transparent;
+    border-top: 70px solid #F8475F;
+    height: 100%;
+    width: 100%;
+}
+
+.color > div > p{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    font-size: 16px;
+    color: #fff;
+}
+.stars img{
+    height: 10px;
+}

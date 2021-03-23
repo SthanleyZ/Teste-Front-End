@@ -1,7 +1,7 @@
 @media only screen and (max-width: 749px) {
-    body{
+    /* body{
         background-color: red;
-    }
+    } */
 
     .mainNav{
         display: none;
@@ -121,5 +121,24 @@
         color: #ffffff;  
         font-size: 12px;
     }
+    
+    .desktopBanner{
+        display: none !important;
+    }
 
+    .alignText{
+        position: absolute;
+        color: white;
+        top: 110px;
+        left: 50px
+    }
+
+    .bannerText{     
+        position: absolute;
+        color: white;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
