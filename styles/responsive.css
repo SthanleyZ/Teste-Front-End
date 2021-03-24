@@ -148,6 +148,24 @@
         height: 290px;
     }
 
+    .footer{
+        height: 420px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .textFoot{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footInfos p{
+        text-align: center;
+    }
    
 }
 
@@ -162,7 +180,32 @@
 
 }
 
-@media only screen and (min-height: 1306px) {
+@media only screen and (min-height: 1300px) and (min-width: 1024px){
+
+    .footer{
+        position: absolute;
+        bottom: -12px;
+    }
+
+}
+
+@media only screen and (min-height: 1614px) and (max-width: 1023px) and (min-width: 750px){
+
+    .footer{
+        position: absolute;
+        bottom: -12px;
+    }
+
+}
+
+@media only screen and (min-height: 1874px) and (max-width: 749px) and (min-width: 561px){
+    .footer{
+        position: absolute;
+        bottom: -12px;
+    }
+}
+
+@media only screen and (min-height: 2764px) and (max-width: 560px){
 
     .footer{
         position: absolute;

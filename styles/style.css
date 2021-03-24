@@ -246,3 +246,7 @@ body{
 .error{
     color: #D7182A
 }
+
+form{
+    width: 100%
+}
