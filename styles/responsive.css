@@ -161,3 +161,12 @@
     }
 
 }
+
+@media only screen and (min-height: 1306px) {
+
+    .footer{
+        position: absolute;
+        bottom: -12px;
+    }
+
+}
