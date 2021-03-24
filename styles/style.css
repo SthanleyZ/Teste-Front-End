@@ -132,7 +132,7 @@ body{
 
 .forms{
     background-color: #F2F2F2;
-    height: 146px;
+    height: 160px;
 }
 
 .formText p{
@@ -241,4 +241,8 @@ body{
 
 .logosFoot p{
     margin: 0
+}
+
+.error{
+    color: #D7182A
 }
