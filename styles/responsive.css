@@ -157,14 +157,15 @@
         justify-content: space-around;
     }
 
-    .textFoot{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+    .localization{
+    align-self: flex-start;
+    padding-left: 16px;
     }
 
-    .footInfos p{
-        text-align: center;
+    .logosFoot{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
     }
    
 }
