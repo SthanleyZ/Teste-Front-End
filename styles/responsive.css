@@ -181,7 +181,16 @@
 
 }
 
-@media only screen and (min-height: 1300px) and (min-width: 1024px){
+@media only screen and (min-height: 1600px) and (min-width: 1024px) and (max-width: 1273px){
+
+    .footer{
+        position: absolute;
+        bottom: -12px;
+    }
+
+}
+
+@media only screen and (min-height: 1311px) and (min-width: 1274px){
 
     .footer{
         position: absolute;
@@ -199,14 +208,14 @@
 
 }
 
-@media only screen and (min-height: 1874px) and (max-width: 749px) and (min-width: 561px){
+@media only screen and (min-height: 2202px) and (max-width: 749px) and (min-width: 561px){
     .footer{
         position: absolute;
         bottom: -12px;
     }
 }
 
-@media only screen and (min-height: 2764px) and (max-width: 560px){
+@media only screen and (min-height: 3144px) and (max-width: 560px){
 
     .footer{
         position: absolute;

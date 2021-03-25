@@ -109,9 +109,22 @@ body{
     display: block;    
 }
 
+.prices{
+    margin-top: 10px;
+}
+
+.lastPrice{
+    font-size: 12px;
+    color: #7A7A7A;
+    margin: 0;
+}
+
+.marginPrice{
+    margin-top: 28px;
+}
+
 .price{
     margin: 0;
-    margin-top: 25px;
     font-size: 18px;
     font-weight: bold;
 }

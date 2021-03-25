@@ -115,7 +115,7 @@
         </div>
         <div class="products">
             <div class="productsCenter">
-              
+
             </div>
         </div>
     </div>
@@ -125,16 +125,20 @@
         </div>
         <div class="formInputs">
             <form id="formValidation" class="flowForm row g-3 needs-validation" novalidate>
-                <div class="colunaForm">                    
-                    <input placeholder="Digite seu nome" maxlength="100" minlength="3" name="nome" type="text" class="form-control" id="nome" value="" required>
+                <div class="colunaForm">
+                    <input placeholder="Digite seu nome" maxlength="100" minlength="3" name="nome" type="text"
+                        class="form-control" id="nome" value="" required>
                     <div class="valid-feedback">
                     </div>
                 </div>
-                <div class="colunaForm">                    
-                    <input placeholder="Digite seu email" name="email" type="email" class="form-control" id="email" value="" required pattern="^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$" title="Insira um email válido">
+                <div class="colunaForm">
+                    <input placeholder="Digite seu email" name="email" type="email" class="form-control" id="email"
+                        value="" required
+                        pattern="^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$"
+                        title="Insira um email válido">
                     <div class="valid-feedback">
                     </div>
-                </div>               
+                </div>
                 <div class="btnForm">
                     <button class="btn btn-primary" name="enviar" id="enviar" type="submit">Eu quero!</button>
                 </div>
@@ -153,10 +157,12 @@
         </div>
         <div class="footBtns">
             <div class="contact">
-                <a href="#" class="contactBtn btnFoot btn btn-primary"><img src="images/rodape/envelop.png" alt=""> ENTRE EM CONTATO</a>                
+                <a href="#" class="contactBtn btnFoot btn btn-primary"><img src="images/rodape/envelop.png" alt="">
+                    ENTRE EM CONTATO</a>
             </div>
             <div class="support">
-                <a href="#" class="supportBtn btnFoot btn btn-primary"><img src="images/rodape/fone.png" alt=""> FALE COM O NOSSO CONSULTOR ONLINE</a>                
+                <a href="#" class="supportBtn btnFoot btn btn-primary"><img src="images/rodape/fone.png" alt=""> FALE
+                    COM O NOSSO CONSULTOR ONLINE</a>
             </div>
         </div>
         <div class="logosFoot">
@@ -181,6 +187,16 @@
     <script src="scripts/sideMenu.js"></script>
     <script src="scripts/form.js"></script>
     <script src="scripts/vitrine.js"></script>
+    <script>
+        $(".contactBtn").click(function (event) {
+            event.preventDefault()
+        })
+
+        $(".supportBtn").click(function (event) {
+            event.preventDefault()
+        })
+       
+    </script>
 </body>
 
 </html>
