@@ -68,6 +68,21 @@ body{
     height: 300px;
 }
 
+.card-title{
+    color: #7A7A7A;
+    font-size: 12px;
+}
+
+.boxImg{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 138px;
+}
+
 .card:hover{
     background-color: #E6E8EA;
 }
