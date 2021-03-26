@@ -57,9 +57,25 @@ fetch("https://corebiz-test.herokuapp.com/api/v1/products").then(function (respo
             cardBody.append(cardTitle)
             cardBody.append(elemento)
             cardBody.append(prices)
-            $(".comprar").click(function (event) {
-                event.preventDefault()
-            })
         });
+        if (localStorage.getItem("count") == null) {
+            deskItem.innerHTML = 0;
+            responsiveItem.innerHTML = 0;
+        } else {
+            deskItem.innerHTML = localStorage.getItem("count");
+            responsiveItem.innerHTML = localStorage.getItem("count");
+        }
+        function carrinho() {          
+            count = localStorage.getItem("count")
+            count++
+            localStorage.setItem("count", count);
+            deskItem.innerHTML = localStorage.getItem("count");
+            responsiveItem.innerHTML = localStorage.getItem("count");
+        }
+        $(".comprar").click(function (event) {
+            carrinho()
+            event.preventDefault()
+        })
     })
 })
+
